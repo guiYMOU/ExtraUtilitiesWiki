@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExtraUtilities | Mindustry模组Wiki</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css">
+
+    <style>
+        /* ====== 全局变量 全部页面强制生效 ====== */
+        :root {
+          --main-color: #39c5bb;
+          --bg-page: #ffffff;
+          --bg-card: #f7fcfb;
+          --border-color: #d1f0ec;
+          --text-main: #2c3e50;
+          --text-sub: #607889;
+        }
+        html[data-theme="dark"] {
+          --bg-page: #151b23;
+          --bg-card: #1e2732;
+          --border-color: #2f3b48;
+          --text-main: #e6edf3;
+          --text-sub: #9198a1;
+        }
+
+        /* 全局根页面样式，所有md页面共用 */
+        html, body {
+          background-color: var(--bg-page) !important;
+          color: var(--text-main) !important;
+        }
+        .sidebar {
+          background: var(--bg-card) !important;
+          border-right: 1px solid var(--border-color) !important;
+        }
+        .app-name-link {
+          color: var(--main-color) !important;
+          font-weight: bold;
+        }
+        .markdown-section h1,
+        .markdown-section h2,
+        .markdown-section h3 {
+          color: var(--main-color);
+          border-bottom: 1px solid var(--border-color);
+        }
+        .markdown-section a {
+          color: var(--main-color);
+        }
+        .markdown-section table {
+          border: 1px solid var(--border-color);
+          background: var(--bg-card);
+        }
+        .markdown-section tr:nth-child(2n) {
+          background: rgba(57, 197, 187, 0.08);
+        }
+        .markdown-section blockquote {
+          border-left:4px solid var(--main-color);
+          background: rgba(57, 197, 187, 0.08);
+        }
+        img {
+          border-radius:6px;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .markdown-details {
+          background: var(--bg-card);
+          border:1px solid var(--border-color);
+          border-radius:6px;
+          padding: 10px 14px;
+        }
+
+        /* 明暗切换按钮样式 */
+        #themeBtn {
+          position: fixed;
+          top: 14px;
+          right: 28px;
+          z-index: 9999 !important;
+          cursor: pointer;
+          padding: 5px 12px;
+          border-radius: 6px;
+          border: 1px solid var(--main-color);
+          color: var(--main-color);
+          background: transparent;
+          font-size: 14px;
+        }
+        #themeBtn:hover {
+          background-color: rgba(57, 197, 187, 0.12);
+        }
+    </style>
+</head>
+<body>
+<div id="app"></div>
+<button id="themeBtn">🌓 切换明暗</button>
+
+<script>
+    window.$docsify = {
+        name: 'ExtraUtilities',
+        repo: 'https://github.com/guiYMOU/ExtraUtilitiesWiki/',
+        loadSidebar: true,
+        subMaxLevel: 3,
+        search: 'auto',
+        formatUpdated: '{YYYY}-{MM}-{DD}',
+        plugins: [
+            DocsifyZoom.create()
+        ],
+    }
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-plugin-zoom/lib/docsify-zoom.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-collapse/lib/docsify-collapse.min.js"></script>
+
+<script>
+    const html = document.documentElement;
+    const themeBtn = document.querySelector('#themeBtn');
+    let saveTheme = localStorage.getItem('wiki-theme');
+    const systemIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (saveTheme) {
+        html.dataset.theme = saveTheme;
+    } else {
+        html.dataset.theme = systemIsDark ? 'dark' : 'light';
+    }
+
+    themeBtn.addEventListener('click', () => {
+        const current = html.dataset.theme;
+        const target = current === 'dark' ? 'light' : 'dark';
+        html.dataset.theme = target;
+        localStorage.setItem('wiki-theme', target);
+    });
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        if (!localStorage.getItem('wiki-theme')) {
+            html.dataset.theme = e.matches ? 'dark' : 'light';
+        }
+    });
+</script>
+</body>
+</html>
