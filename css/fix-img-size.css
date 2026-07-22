@@ -41,3 +41,15 @@
 [data-md-color-scheme="default"] .eu-icon {
     filter: drop-shadow(0 0 4px #239982);
 }
+
+/* 首页卡片网格 —— 自动响应式 */
+@media (max-width: 800px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 400px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
