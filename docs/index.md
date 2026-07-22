@@ -18,7 +18,8 @@
 ---
 
 ## <img src="img/icon.png" style="height:32px; vertical-align:middle; margin-right:8px;"> 模组介绍
-### ExtraUtilities 给予原版游戏上的体验扩展：
+ExtraUtilities 给予原版游戏上的体验扩展：
+
 - 高级单位工厂炮塔
 - 全新战役地图玩法
 - 辅助设置优化游戏体验
@@ -37,7 +38,7 @@
 <img src="img/buildings/productions/crisp-steel-smelter.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">建筑图鉴
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">全部建筑数值机制&部分演示</p>
-<a href="./buildings/test.md">进入建筑分类 →</a>
+<a href="./building/main/">进入建筑分类 →</a>
 </div>
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
