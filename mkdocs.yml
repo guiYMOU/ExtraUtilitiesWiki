@@ -32,9 +32,6 @@ theme:
         icon: material/brightness-7
         name: 切换浅色模式
 
-  icon:
-    logo: material/gamepad
-
 # 侧边栏导航（完全适配你之前的Wiki目录，无需改动文档）
 nav:
   - 首页: index.md
@@ -66,4 +63,7 @@ extra:
   social:
     - icon: simple/github
       link: https://github.com/guiYMOU/ExtraUtilitiesWiki
-copyright: Copyright &copy; 2025 guiY — ExtraUtilities Mod
+copyright: Copyright &copy; 2026 guiY — ExtraUtilities Mod
+
+# 网页标签小图标
+favicon: lightnin-alloy.png
