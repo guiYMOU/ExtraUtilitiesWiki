@@ -53,3 +53,117 @@
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+
+.card-grid > div {
+  transition: all 0.2s ease;
+}
+.card-grid > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px #39c5bb40;
+}
+
+/* 侧边栏二级子菜单整体缩进 */
+.md-nav__list .md-nav__list {
+    padding-left: 22px !important;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* 每一层嵌套逐级缩进，层级层次感更强 */
+.md-nav__list .md-nav__list .md-nav__list {
+    padding-left: 18px !important;
+}
+
+/* 核心数据库外层容器 */
+.db-container {
+  background: #222429;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 24px 0;
+}
+
+/* 分类标题 + 右侧贯穿分割线 原版样式 */
+.db-category-title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 42px 0 22px 0;
+  gap: 26px;
+}
+/* 首个标题取消上边距 */
+.db-category-title:first-of-type {
+  margin-top: 0;
+}
+.db-category-title::after {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background: #484a50;
+}
+
+/* 图标流式布局核心：自动换行，自适应所有屏幕 */
+.db-icon-row {
+  display: flex;
+  flex-wrap: wrap; /* 超出宽度自动换行 关键属性 */
+  gap: 18px; /* 图标之间统一间距 */
+}
+
+/* 可点击已解锁图标方框（去掉所有发光、阴影） */
+.db-icon-item {
+  width: 48px;
+  height: 48px;
+  background: #282a30;
+  border: 2px solid #414349;
+  border-radius: 12px;
+  /* 移除box-shadow、inset内发光所有光晕代码 */
+  display: flex;
+  align-items: center;    /* 垂直居中 */
+  justify-content: center;/* 水平居中 */
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+/* 悬浮仅轻微上浮，无青绿光晕 */
+.db-icon-item:hover {
+  transform: translateY(-3px);
+  border-color: #60636b;
+}
+
+/* 内部像素图标统一尺寸+居中锐利像素渲染 */
+.db-icon-item img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated; /* 像素画不失真模糊 */
+}
+
+/* 未上锁问号空白格子样式 */
+.db-icon-item.locked {
+  cursor: not-allowed;
+  filter: brightness(0.42);
+}
+.db-icon-item.locked:hover {
+  transform: none;
+  border-color: #414349;
+}
+
+/* 移动端手机自适应缩小尺寸 */
+@media (max-width: 768px) {
+  .db-icon-item {
+    width: 40px;
+    height: 40px;
+  }
+  .db-icon-item img {
+    width: 30px;
+    height: 30px;
+  }
+  .db-category-title {
+    font-size: 16px;
+  }
+  .db-container {
+    padding: 20px;
+  }
+  .db-icon-row {
+    gap: 12px;
+  }
+}
