@@ -1,0 +1,62 @@
+# 终极修复版：系统自适应深浅模式 + 按钮图标切换 + 图片尺寸兼容
+site_name: Extrautilities Mod Wiki
+site_description: EU模组中文wiki文档
+site_author: guiY
+site_url: https://guiymou.github.io/ExtrautilitiesWiki/
+
+theme:
+  name: material
+  # 核心：开启系统自动识别 + 手动切换优先级
+  default_mode: system
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    # 修复：主题切换状态联动
+    - palette.toggle
+
+  # 标准双主题配置（修复按钮图标不切换问题）
+  palette:
+    # 浅色模式
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换深色模式
+    # 深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换浅色模式
+
+  icon:
+    logo: material/gamepad
+
+# 侧边栏导航（完全适配你之前的Wiki目录，无需改动文档）
+nav:
+  - 首页: index.md
+
+# 中文搜索适配
+plugins:
+  - search:
+      lang: zh
+
+# 完整扩展插件，兼容HTML图片属性
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.blocks.html
+
+# 加载图片修复样式
+extra_css:
+  - css/fix-img-size.css
