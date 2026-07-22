@@ -4,10 +4,14 @@ site_description: EU模组中文wiki文档
 site_author: guiY
 site_url: https://guiYMOU.github.io/ExtraUtilitiesWiki/
 
+# 网页标签小图标
+favicon: lightnin-alloy.png
+
 theme:
   name: material
+  font: false
   features:
-    - navigation.tabs
+#    - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
@@ -15,7 +19,9 @@ theme:
     - palette.toggle
     - navigation.instant
     - navigation.tracking
+    - navigation.collapse
     - content.code.copy
+    - navigation.tags
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -32,9 +38,21 @@ theme:
         icon: material/brightness-7
         name: 切换浅色模式
 
+
+tags:
+  - 原材料: items
+  - 炮塔: building/turret
+
 # 侧边栏导航（完全适配你之前的Wiki目录，无需改动文档）
 nav:
   - 首页: index.md
+  - 建筑:
+      - 全部建筑一览: building/main.md
+      - 炮塔:
+          - T2双管: building/turret/T2duo.md
+          - T3双管: building/turret/T3duo.md
+          - T2分裂: building/turret/T2scatter.md
+
 
 # 中文搜索适配
 plugins:
@@ -62,8 +80,5 @@ gh_deploy:
 extra:
   social:
     - icon: simple/github
-      link: https://github.com/guiYMOU/ExtraUtilitiesWiki
+      link: https://github.com/guiYMOU/mindustry-Extra-Utilities-mod
 copyright: Copyright &copy; 2026 guiY — ExtraUtilities Mod
-
-# 网页标签小图标
-favicon: lightnin-alloy.png
