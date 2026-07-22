@@ -13,19 +13,21 @@ theme:
     - search.suggest
     - search.highlight
     - palette.toggle
-
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: 切换深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: 切换浅色模式
@@ -59,3 +61,9 @@ extra_css:
 
 gh_deploy:
   nojekyll: true
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/guiYMOU/ExtraUtilitiesWiki
+copyright: Copyright &copy; 2025 guiY — ExtraUtilities Mod

@@ -34,7 +34,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/buildings/productions/crisp-steel-smelter.png" style="height:32px; vertical-align:middle; margin-right:8px;">建筑图鉴
+<img src="img/buildings/productions/crisp-steel-smelter.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">建筑图鉴
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">全部建筑数值机制&部分演示</p>
 <a href="./buildings/test.md">进入建筑分类 →</a>
@@ -42,7 +42,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/items/lightnin-alloy.png" style="height:32px; vertical-align:middle; margin-right:8px;">资源物品
+<img src="img/items/lightnin-alloy.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">资源物品
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU全部物品展示（WTMF）</p>
 <a href="./item/">查看全部物品 →</a>
@@ -50,7 +50,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/units/winglet.png" style="height:32px; vertical-align:middle; margin-right:8px;">作战单位
+<img src="img/units/winglet.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">作战单位
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">全部单位属性以及部分攻击效果动图演示</p>
 <a href="./unit/">单位详情页 →</a>
@@ -58,7 +58,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/status/speedUp.png" style="height:32px; vertical-align:middle; margin-right:8px;">状态效果
+<img src="img/status/speedUp.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">状态效果
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU部分特殊效果一览</p>
 <a href="./mechanism/">效果详解 →</a>
@@ -66,7 +66,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/serpuloEX.png" style="height:32px; vertical-align:middle; margin-right:8px;">战役地图
+<img src="img/serpuloEX.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">战役地图
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU新增地图战役（可能剧透）</p>
 <a href="./mechanism/">地图一览 →</a>
@@ -74,7 +74,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/EUSETTING.png" style="height:32px; vertical-align:middle; margin-right:8px;">设置讲解
+<img src="img/EUSETTING.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">设置讲解
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU全部设置和功能介绍</p>
 <a href="./mechanism/">设置功能 →</a>
@@ -82,7 +82,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/buildings/turrets/shotgun.png" style="height:32px; vertical-align:middle; margin-right:8px;">独立模式
+<img src="img/buildings/turrets/shotgun.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">独立模式
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU肉鸽模式介绍</p>
 <a href="./mechanism/">肉鸽模式 →</a>
@@ -90,7 +90,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/buildings/turrets/guiY-preview.png" style="height:32px; vertical-align:middle; margin-right:8px;">更新日志
+<img src="img/buildings/turrets/guiY-preview.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">更新日志
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">版本新增内容、平衡调整、BUG修复记录</p>
 <a href="./changelog.md">查看更新 →</a>
@@ -98,7 +98,7 @@
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
-<img src="img/buildings/effects/minichisa.png" style="height:32px; vertical-align:middle; margin-right:8px;">常见问题
+<img src="img/buildings/effects/minichisa.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">常见问题
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">安装冲突、崩溃报错、玩法疑问解答</p>
 <a href="./faq.md">问题汇总 →</a>
@@ -109,7 +109,7 @@
 ---
 
 <p align="center">
-<img width="720" src="img/preview.png">
+<img src="img/preview.png">
 </p>
 
 ---
