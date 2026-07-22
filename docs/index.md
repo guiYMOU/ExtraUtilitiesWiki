@@ -30,7 +30,7 @@
 
 ## <img src="img/luobo.png" style="height:32px; vertical-align:middle; margin-right:8px;"> 全分类导航
 
-<div style="display: grid; grid-template-columns: repeat(3,1fr); gap:24px; margin:30px 0;">
+<div class="card-grid" style="display: grid; grid-template-columns: repeat(3,1fr); gap:24px; margin:30px 0;">
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
 <h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
