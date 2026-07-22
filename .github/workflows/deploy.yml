@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs==1.6.1 mkdocs-material==9.7.7
           
-      - name: set web
+      - name: set local web
         run: mkdocs build
 
       - name: push site to gh-pages
