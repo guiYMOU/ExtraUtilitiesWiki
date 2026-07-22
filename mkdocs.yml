@@ -56,3 +56,6 @@ markdown_extensions:
 # 加载图片修复样式
 extra_css:
   - css/fix-img-size.css
+
+gh_deploy:
+  nojekyll: true
