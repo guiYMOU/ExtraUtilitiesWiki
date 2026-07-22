@@ -1,0 +1,20 @@
+/* docs/css/fix-img-size.css 终极修复版 */
+/* 全局默认：无尺寸属性图片自适应，不溢出 */
+.md-content img:not([width]):not([height]) {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 核心：你手动设置 width / height 的图片 100% 生效 */
+.md-content img[width],
+.md-content img[height] {
+    max-width: unset !important;
+    height: unset !important;
+    object-fit: contain;
+}
+
+/* 适配小图标（24px物品图标）防止模糊、变形 */
+.md-content img[height="24"],
+.md-content img[width="24"] {
+    image-rendering: auto;
+}

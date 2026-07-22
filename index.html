@@ -1,0 +1,682 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="EU模组中文wiki文档">
+      
+      
+        <meta name="author" content="guiY">
+      
+      
+        <link rel="canonical" href="https://guiymou.github.io/ExtrautilitiesWiki/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Extrautilities Mod Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/fix-img-size.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#extrautilities" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Extrautilities Mod Wiki" class="md-header__button md-logo" aria-label="Extrautilities Mod Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.5 9-3 3 3 3H22V9M9 16.5V22h6v-5.5l-3-3M7.5 9H2v6h5.5l3-3M15 7.5V2H9v5.5l3 3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Extrautilities Mod Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              首页
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Extrautilities Mod Wiki" class="md-nav__button md-logo" aria-label="Extrautilities Mod Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.5 9-3 3 3 3H22V9M9 16.5V22h6v-5.5l-3-3M7.5 9H2v6h5.5l3-3M15 7.5V2H9v5.5l3 3z"/></svg>
+
+    </a>
+    Extrautilities Mod Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mindustry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mindustry 扩展模组 · 官方文档库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模组介绍
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="模组介绍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extrautilities_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ExtraUtilities 给予原版游戏上的体验扩展：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全分类导航
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文档维护
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mindustry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mindustry 扩展模组 · 官方文档库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模组介绍
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="模组介绍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extrautilities_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ExtraUtilities 给予原版游戏上的体验扩展：
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全分类导航
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文档维护
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p align="center">
+<img width="360" src="img/logo.png">
+</p>
+
+<h1 id="extrautilities">ExtraUtilities</h1>
+<h2 id="mindustry">Mindustry 扩展模组 · 官方文档库</h2>
+<p align="center">
+新手辅助，高阶单位，高阶炮塔，高阶工厂，视觉调整 | 轻量化高兼容模组
+</p>
+
+<div align="center" style="margin:2rem 0; display:flex; gap:18px; justify-content:center;">
+<a href="https://github.com/guiYMOU/mindustry-Extra-Utilities-mod/releases" style="color:var(--main-color); border:2px solid var(--main-color); padding:8px 20px; border-radius:5px; text-decoration:none; display:flex; align-items:center; gap:10px;">
+<img src="img/unload.png" height="32"> 更新日志&获取模组
+</a>
+</div>
+
+<hr />
+<h2 id="_1"><img src="img/icon.png" style="height:32px; vertical-align:middle; margin-right:8px;"> 模组介绍</h2>
+<h3 id="extrautilities_1">ExtraUtilities 给予原版游戏上的体验扩展：</h3>
+<ul>
+<li>高级单位工厂炮塔</li>
+<li>全新战役地图玩法</li>
+<li>辅助设置优化游戏体验</li>
+<li>神秘机制以及作者的小巧思</li>
+</ul>
+<blockquote>
+<p>本文档收录全部建筑、物品、单位数值和具体机制。</p>
+</blockquote>
+<hr />
+<h2 id="_2"><img src="img/luobo.png" style="height:32px; vertical-align:middle; margin-right:8px;"> 全分类导航</h2>
+<div style="display: grid; grid-template-columns: repeat(3,1fr); gap:24px; margin:30px 0;">
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/buildings/productions/crisp-steel-smelter.png" style="height:32px; vertical-align:middle; margin-right:8px;">建筑图鉴
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">全部建筑数值机制&部分演示</p>
+<a href="./buildings/test.md">进入建筑分类 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/items/lightnin-alloy.png" style="height:32px; vertical-align:middle; margin-right:8px;">资源物品
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">EU全部物品展示（WTMF）</p>
+<a href="./item/">查看全部物品 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/units/winglet.png" style="height:32px; vertical-align:middle; margin-right:8px;">作战单位
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">全部单位属性以及部分攻击效果动图演示</p>
+<a href="./unit/">单位详情页 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/status/speedUp.png" style="height:32px; vertical-align:middle; margin-right:8px;">状态效果
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">EU部分特殊效果一览</p>
+<a href="./mechanism/">效果详解 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/serpuloEX.png" style="height:32px; vertical-align:middle; margin-right:8px;">战役地图
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">EU新增地图战役（可能剧透）</p>
+<a href="./mechanism/">地图一览 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/EUSETTING.png" style="height:32px; vertical-align:middle; margin-right:8px;">设置讲解
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">EU全部设置和功能介绍</p>
+<a href="./mechanism/">设置功能 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/buildings/turrets/shotgun.png" style="height:32px; vertical-align:middle; margin-right:8px;">独立模式
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">EU肉鸽模式介绍</p>
+<a href="./mechanism/">肉鸽模式 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/buildings/turrets/guiY-preview.png" style="height:32px; vertical-align:middle; margin-right:8px;">更新日志
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">版本新增内容、平衡调整、BUG修复记录</p>
+<a href="./changelog.md">查看更新 →</a>
+</div>
+
+<div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
+<h3 style="margin:0 0 12px 0; display:flex; align-items:center; gap:8px;">
+<img src="img/buildings/effects/minichisa.png" style="height:32px; vertical-align:middle; margin-right:8px;">常见问题
+</h3>
+<p style="color:var(--text-sub); margin-bottom:16px;">安装冲突、崩溃报错、玩法疑问解答</p>
+<a href="./faq.md">问题汇总 →</a>
+</div>
+
+</div>
+
+<hr />
+<p align="center">
+<img width="720" src="img/preview.png">
+</p>
+
+<hr />
+<h2 id="_3">文档维护</h2>
+<ul>
+<li>开源仓库：<a href="https://github.com/guiYMOU/ExtraUtilitiesWiki">→ 前往仓库 ←</a></li>
+<li>数值错误、缺失内容欢迎提交 Issues 补充修正</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "palette.toggle"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
