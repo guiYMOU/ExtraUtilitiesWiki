@@ -6,28 +6,24 @@ site_url: https://guiymou.github.io/ExtraUtilitiesWiki/
 
 theme:
   name: material
-  # 核心：开启系统自动识别 + 手动切换优先级
-  default_mode: system
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
-    # 修复：主题切换状态联动
     - palette.toggle
 
-  # 标准双主题配置（修复按钮图标不切换问题）
   palette:
-    # 浅色模式
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: 切换深色模式
-    # 深色模式
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: indigo
       toggle:
