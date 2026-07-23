@@ -3,7 +3,7 @@
 ← 返回建筑总览
 </a>
 
-# T2-双管
+# T2双管
 <div style="display: flex;align-items: center;gap: 14px;margin-bottom: 16px;">
 <img src="/ExtraUtilitiesWiki/img/buildings/turrets/T2-duo.png" width="56">
 <h1 style="margin: 0;">T2-双管</h1>
@@ -45,8 +45,7 @@
 | 弹药最大容量 | 30 发 |
 
 ---
-
-## 弹药适配效果
+## 弹药
 ### <a href="https://mindustrygame.github.io/wiki/items/0-copper/" target="_blank" style="text-decoration: none;color: inherit;">
 <img src="https://mindustrygame.github.io/wiki/images/item-copper.png" width="26" style="vertical-align:middle;margin-right:8px;">铜子弹
 </a>
@@ -73,26 +72,26 @@
 - 弹道具备追踪效果
 
 ---
-
-## 可选流体强化效果
-<div class="flex-icon-grid">
-<a href="https://mindustrygame.github.io/wiki/liquids/water/" target="_blank" class="icon-small-box" title="水">
-<img src="https://mindustrygame.github.io/wiki/images/liquid-water.png">
-</a>
-<a href="https://mindustrygame.github.io/wiki/liquids/cryofluid/" target="_blank" class="icon-small-box" title="冷冻液">
-<img src="https://mindustrygame.github.io/wiki/images/liquid-cryofluid.png">
-</a>
-</div>
-
-1. **水（消耗：6/秒）**
-   整体开火速率提升至 120%
-2. **冷冻液（消耗：6/秒）**
-   整体开火速率提升至 145%
+## 可选强化
+<a href="https://mindustrygame.github.io/wiki/liquids/water/" target="_blank" style="text-decoration: none;color: inherit;">
+<img src="https://mindustrygame.github.io/wiki/images/liquid-water.png" width="20" style="vertical-align:middle;margin:0 6px;">水
+</a>（消耗：6/秒）开火速率提升至 120%
+<br>
+<a href="https://mindustrygame.github.io/wiki/liquids/cryofluid/" target="_blank" style="text-decoration: none;color: inherit;">
+<img src="https://mindustrygame.github.io/wiki/images/liquid-cryofluid.png" width="20" style="vertical-align:middle;margin:0 6px;">冷冻液
+</a>（消耗：6/秒）开火速率提升至 145%
 
 ---
-## <img src="https://mindustrygame.github.io/wiki/images/status-overclock-ui.png">困难模式特殊改动
+## <img src="https://mindustrygame.github.io/wiki/images/status-overclock-ui.png" width="24">困难模式特殊改动
 >"指望它输出不如指望它当墙"
 
 - 炮塔描述变为：“向敌人交替发射子弹。攻速比双管低，但是生命值很高。”
 - 开火速率由原有的4/s变为1.67/s，这意味着T2双管的输出能力大幅削弱
 - 生命值由320变为640，比铜墙和铜铅墙都要高，玩家可以当做一个会攻击的墙来使用
+
+## <img src="https://mindustrygame.github.io/wiki/images/block-world-message-ui.png" width="22">历史版本
+- 1.1.8.1版本：同游戏修改提高攻击范围
+- 1.1.7.1版本：造价降低
+- 1.1.7.0版本：引入困难模式特殊修改
+- 1.2版本：贴图修改
+- 1.0版本：加入
