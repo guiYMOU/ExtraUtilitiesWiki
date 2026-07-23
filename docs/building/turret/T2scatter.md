@@ -2,7 +2,6 @@
 ← 返回建筑总览
 </a>
 
-# T2分裂
 <div style="display: flex;align-items: center;gap: 14px;margin-bottom: 16px;">
 <img src="/ExtraUtilitiesWiki/img/buildings/turrets/T2-scatter.png" width="56">
 <h1 style="margin: 0;">T2分裂炮</h1>
@@ -75,11 +74,11 @@
 
 ---
 ## 可选强化
-<a href="https://mindustrygame.github.io/wiki/liquids/water/" target="_blank" style="text-decoration: none;color: inherit;">
+<a href="https://mindustrygame.github.io/wiki/liquids/0-water/" target="_blank" style="text-decoration: none;color: inherit;">
 <img src="https://mindustrygame.github.io/wiki/images/liquid-water.png" width="20" style="vertical-align:middle;margin:0 6px;">水
 </a>（消耗：13.2/秒）开火速率提升至 144%
 <br>
-<a href="https://mindustrygame.github.io/wiki/liquids/cryofluid/" target="_blank" style="text-decoration: none;color: inherit;">
+<a href="https://mindustrygame.github.io/wiki/liquids/3-cryofluid/" target="_blank" style="text-decoration: none;color: inherit;">
 <img src="https://mindustrygame.github.io/wiki/images/liquid-cryofluid.png" width="20" style="vertical-align:middle;margin:0 6px;">冷冻液
 </a>（消耗：13。2/秒）开火速率提升至 199%
 

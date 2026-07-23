@@ -46,12 +46,19 @@ tags:
 # 侧边栏导航（完全适配你之前的Wiki目录，无需改动文档）
 nav:
   - 首页: index.md
+  - 物品:
+      - 物品主页: item/main.md
+      - 物品:
+          - 脆钢: item/crispSteel.md
+          - 光束合金: item/lightninAlloy.md
+          - 石头: item/stone.md
   - 建筑:
       - 全部建筑一览: building/main.md
       - 炮塔:
           - T2双管: building/turret/T2duo.md
           - T3双管: building/turret/T3duo.md
           - T2分裂: building/turret/T2scatter.md
+          - T2火焰炮: building/turret/T2scorch.md
 
 
 # 中文搜索适配

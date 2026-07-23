@@ -46,7 +46,7 @@ ExtraUtilities 给予原版游戏上的体验扩展：
 <img src="img/items/lightnin-alloy.png" class="eu-icon" style="height:32px; vertical-align:middle; margin-right:8px;">资源物品
 </h3>
 <p style="color:var(--text-sub); margin-bottom:16px;">EU全部物品展示（WTMF）</p>
-<a href="./item/">查看全部物品 →</a>
+<a href="./item/main">查看全部物品 →</a>
 </div>
 
 <div style="background:var(--bg-card); border:1px solid var(--main-color); border-radius:10px; padding:24px;">
