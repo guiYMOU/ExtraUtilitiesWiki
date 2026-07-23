@@ -167,3 +167,63 @@
     gap: 12px;
   }
 }
+
+.item-link-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin:12px 0;
+  align-items:center;
+}
+.item-link-row a{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  color:inherit;
+  padding:4px 8px;
+  border-radius:4px;
+}
+.item-link-row a:hover{
+  background:rgba(255,255,255,0.08);
+}
+.item-link-row img{
+  width:24px;
+}
+
+/* 光束合金帧动画 - 帧图存放于 items/lightninAlloy/ 文件夹 */
+.lightnin-alloy-anim {
+  width: 56px;
+  height: 56px;
+  background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: lightninLoop 1.8s steps(14) infinite;
+}
+@keyframes lightninLoop {
+  0%    { background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy1.png"); }
+  7.14% { background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy2.png"); }
+  14.28%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy3.png"); }
+  21.42%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy4.png"); }
+  28.56%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy5.png"); }
+  35.70%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy6.png"); }
+  42.84%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy7.png"); }
+  49.98%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy8.png"); }
+  57.12%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy9.png"); }
+  64.26%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy10.png"); }
+  71.40%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy11.png"); }
+  78.54%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy12.png"); }
+  85.68%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy13.png"); }
+  92.82%{ background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy14.png"); }
+  100%  { background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy1.png"); }
+}
+
+/* 物品总览页 24px 小尺寸动画图标（配套用） */
+.lightnin-alloy-anim-small {
+  width: 24px;
+  height: 24px;
+  background-image: url("/ExtraUtilitiesWiki/img/items/lightninAlloy/lightnin-alloy1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: lightninLoop 1.8s steps(14) infinite;
+}
