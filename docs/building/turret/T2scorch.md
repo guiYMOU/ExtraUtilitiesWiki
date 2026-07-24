@@ -47,14 +47,12 @@
 ### <a href="https://mindustrygame.github.io/wiki/items/5-coal/" target="_blank">
 <img src="https://mindustrygame.github.io/wiki/images/item-coal.png" width="26" style="vertical-align:middle;margin-right:8px;">煤炭
 </a>
-
+ 
 - 弹道特性：12°小面积火焰灼烧
 - 单发伤害：48
 - 建筑伤害修正：-60%
 - 装填倍率：2×
-- 穿透特性：无限穿透
-- 附加效果：灼烧，持续4秒
-
+- 附加效果：<a href="https://mindustrygame.github.io/wiki/statuses/1-burning/" target="_blank" style="text-decoration: none;color: inherit;"><img src="https://mindustrygame.github.io/wiki/images/status-burning-ui.png" width="24" style="vertical-align:middle;margin:0 6px;">灼烧</a>，持续6秒
 
 
 ### <a href="https://mindustrygame.github.io/wiki/items/13-spore-pod/" target="_blank" style="text-decoration: none;color: inherit;">
