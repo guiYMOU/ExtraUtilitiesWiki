@@ -48,6 +48,9 @@
     <a href="../turret/T2scatter" class="db-icon-item">
       <img src="/ExtraUtilitiesWiki/img/buildings/turrets/T2-scatter.png">
     </a>
+    <a href="../turret/T2scorch" class="db-icon-item">
+      <img src="/ExtraUtilitiesWiki/img/buildings/turrets/T2scorch.png">
+    </a>
   </div>
 
 
